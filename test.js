@@ -87,7 +87,7 @@ console.log(mysasi)
 
 mysasi.unshift(0)  //pushes an element as frist index
 console.log(mysasi)*/
-let personsData = [
+/*let personsData = [
     {name:'Kohli', city:'Banglore'}, 
     {name:'Rohit', city:'Banglore'}, 
     {name:'Rohit',city:'Banglore'}, 
@@ -117,4 +117,124 @@ let personsData = [
  }
 }
 console.log(uniqueNames);
-console.log(uniquecity);
+console.log(uniquecity);*/
+
+/*let movieName = ['bheeshma','darbar','yevadu','dhruva','rangasthalam', 'yevadu', 'bheeshma'];
+let uniqueName =[];
+for (let i=0; i < movieName.length; i++){
+    if(uniqueName.indexOf(movieName[i])=== -1){
+        uniqueName.push(movieName[i]);
+    }
+};
+console.log(uniqueName);*/
+//printsomethingtoconsole('hi')
+/*function  printsomethingtoconsole(){
+    console.log(hi)
+}
+printsomethingtoconsole('age')
+function  printsomethingtoconsole(){
+    console.log(age)
+}*/
+
+//function is a js
+/*let persons = ['uday','sai', 'mahi','gani','uday','sai', 'mahi','gani'];
+let ages = ['22','25','26','27','22','25','26','27'];
+let countrys = ['usa','uk','us','india','usa','uk','us','india'];
+
+
+let filteredpersons = filterArray(persons);
+let filteredcountrys= filterArray(countrys);
+let filteredages  = filterArray(ages);
+
+function removeDuplicatesInArray(array){
+    let uniquearray =[];
+    for(let i=0 ; i<array.length; i++){
+        if(uniquearray.indexOf(array[i])=== -1){
+        uniquearray.push(array[i])
+    }
+}
+    return uniquearray;
+}
+
+function  removedfirstandlastindex(array){
+    array.pop();
+    //array.shift();
+    return array;
+}
+function filterArray(array){
+    let removeduplicatesInArray = removeDuplicatesInArray(array);
+    let finalArray = removedfirstandlastindex(removeduplicatesInArray);
+    return finalArray;
+}
+console.log(filteredpersons)
+console.log(filteredcountrys)
+console.log(filteredages)*/
+//function 
+
+/*let names = ['uday','sai', 'mahi','gani','uday','sai', 'mahi','gani'];
+let age = ['22','25','26','27'];
+let country = ['usa','uk','us','india'];
+
+let filteredName = filterArray(names);
+let filteredage  = filterArray(age);
+let filteredcountry= filterArray(country);
+
+function oddindexinarray(array){
+    let uniquearray =[];
+    for(let i=0 ; i<array.length; i++){
+        if(uniquearray.indexOf(array[i])=== -1){
+        uniquearray.push(array[i])
+    }
+}
+    return uniquearray;
+}
+
+function reverseelementsinarray(array){
+    let uniquearray =[];
+    for(let i=0 ; i<array.length; i++){
+        if(uniquearray.indexOf(array[i])=== -1){
+        uniquearray.push(array[i])
+        array.reverse()
+        
+    }
+}
+
+    return array;
+}
+function filterArray(array){
+    let oddwithindexInArray = oddindexinarray(array);
+    let finalArray=  reverseelementsinarray(oddwithindexInArray);
+    return finalArray;
+}
+console.log(filteredName)
+console.log(filteredage)
+console.log(filteredcountry)*/
+
+function getoneThing(){
+    let thing = document.querySelector('.mydiv > p> span');
+    console.log(thing);
+}
+function getEveryThing(){
+    let thing = document.querySelector('.mydiv > p');
+    console.log(thing);
+}
+getoneThing()
+getEveryThing()
+
+/*function changeparacontent(){
+let para =document.getElementById('mypara');
+para.innerHTML = 'operation of javascript';
+para.style.color = 'back'
+para.style.backgroundColor = 'green'
+}
+function fetchbytag(){
+    let headers =document.getElementsbyTagName('h5');
+    const headerone = header[0];
+    header.one.innerHTML='changed header'
+    function fetchbytag(){
+        let headers =document.getElementsbyTagName('boy');
+        let header = Elements[1];
+        console.log(hearder);
+        header.style.color='red'
+}
+fetchbytag();*/
