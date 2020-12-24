@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+table{
+    width: 30% !important;
+    margin: 10px auto;
+    text-align: center;
+    background-color: black;
+    
+     
+}
+#result{
+    background:coral;
+    color:black;
+    padding: 20px;
+    border: 2px solid black;
+}
+#result:hover{
+    background:white;
+    color:red;
+}
+#car:hover{
+    background: crimson;
+    color: black;
+}
+</style>
+<body>
+    <div class="container .btn-success">
+    <table class="table table-bordered .btn-success">
+        <tr>
+            <td colspan="3">
+                <input type ='text' name="result" class="form-control" id='result'>
+            </td>
+            <td><button onclick="clearvalues()" class="btn btn-success" id="car">c</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="displayvalue('1')"class="btn btn-success"id='car'>1</button></td>
+            <td><button onclick="displayvalue('2')" class="btn btn-success"id='car'>2</button></td>
+            <td> <button onclick="displayvalue(3)" class="btn btn-success" id='car'>3</button></td>
+            <td> <button onclick="displayvalue('+')" class="btn btn-success"id='car'>+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="displayvalue('4')" class="btn btn-success"id='car'>4</button></td>
+            <td><button onclick="displayvalue('5')"class="btn btn-success" id='car'>5</button></td>
+            <td><button onclick="displayvalue('6')" class="btn btn-success"id='car'>6</button></td>
+            <td><button onclick="displayvalue('-')" class="btn btn-success"id='car'>-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="displayvalue('7')" class="btn btn-success"id='car'>7</button></td>
+            <td><button onclick="displayvalue('8')" class="btn btn-success"id='car'>8</button></td>
+            <td><button onclick="displayvalue('9')" class="btn btn-success"id='car'>9</button></td>
+            <td><button onclick="displayvalue('*')" class="btn btn-success"id='car'>*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="displayvalue('.')" class="btn btn-success"id='car'>.</button></td>
+            <td><button onclick="displayvalue('0')" class="btn btn-success"id='car'>0</button></td>
+            <td><button onclick="solve()" class="btn btn-success"id='car'>=</button></td>
+            <td><button onclick="displayvalue('/')" class="btn btn-success"id='car'>/</button></td>
+        </tr>
+    </table>
+</div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
