@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Document</title>
 </head>
-<style>
+<!--<style>
 table{
     width: 30% !important;
     margin: 10px auto;
@@ -29,9 +29,30 @@ table{
     background: crimson;
     color: black;
 }
+</style>-->
+<style>
+    body{
+        background-image: url("2.jpg");
+    }
+    .clock{
+        margin-top: 10%;
+        margin-left: 45%;
+        margin-right:32% ;
+        font-size: 60px;
+        background-color:black;
+        border: 2px solid red;
+        border-radius: 25px;
+        color: white;
+    }
+    .clock:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid red;
+
+    }
 </style>
 <body>
-    <div class="container .btn-success">
+    <!--<div class="container .btn-success">
     <table class="table table-bordered .btn-success">
         <tr>
             <td colspan="3">
@@ -64,8 +85,15 @@ table{
             <td><button onclick="displayvalue('/')" class="btn btn-success"id='car'>/</button></td>
         </tr>
     </table>
-</div>
-    
+</div>-->
+
+<!--<div class="container-fluid" class="mt-5"> 
+<p id="para"></p>
+<input type="text" class="form-control" id="myInput"  onkeyup="getInputvalue()"
+placeholder="please enter your age">
+<button id="myBtn" class="btn btn-primary mt-3">check vote egilible!</button>
+</div>-->
+<div id="myClock" class="clock"></div>
     <script src="index.js"></script>
 </body>
 </html>
