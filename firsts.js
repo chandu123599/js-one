@@ -1,10 +1,8 @@
-function changeparacontent(){
-    let para = document.getElementsById('mypara')
-    console.log(para)
-    para.innerHTML = 'this is content from javascripts';
-    para.style.color = 'red';
-    para.style.backgroundColor = 'yellow'
-
+function changeparacontent() {
+    let para = document.getElementById('mypara');
+    para.innerHTML = 'operation of javascript';
+    para.style.color = 'black';
+    para.style.backgroundColor = 'green';
 }
 function fetchByTag(){
     let headers = document.getElementsByTagName("h4");
@@ -19,9 +17,9 @@ function fetchByClass(){
 } 
 
 fetchByClass();
-/*function changeparacontent(){
+function changeparacontent(){
     let para =document.getElementById('mypara');
     para.innerHTML = 'operation of javascript';
     para.style.color = 'black'
     para.style.backgroundColor = 'green'
-    }*/
+    }
